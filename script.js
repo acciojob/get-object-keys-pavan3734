@@ -1,9 +1,8 @@
-//your JS code here. If required.
-let student = {
-	name : "Pavan"
-}
+const student = {
+  name: "John"
+};
 
-function getkeys(obj){
-	return obj.name
+// Function to return all keys of an object
+function getKeys(obj) {
+  return Object.keys(obj);
 }
-console.log(getkeys(student));
